@@ -56,4 +56,15 @@ in {
       };
     };
   };
+
+  flake.templates = {
+    dendritic = {
+      description = "dendritic template";
+      path = ./../templates/dendritic;
+    };
+    flake-parts = {
+      description = "flake-parts template";
+      path = ./../templates/flake-parts;
+    };
+  };
 }
